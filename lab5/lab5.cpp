@@ -25,7 +25,7 @@ public:
 	bool contains(const string& data);
 	void clear();
 	int count();
-	string* toArray();
+	string* ToArray();
 
 };
 
@@ -92,7 +92,7 @@ int HashSet::count()
 	return total;
 }
 
-string* HashSet::toArray()
+string* HashSet::ToArray()
 {
 	int total = count();
 	string* array = new string[total];
@@ -108,7 +108,7 @@ string* HashSet::toArray()
 	return array;
 }
 
-int main()
+int main() 
 {
 	return 0;
 }
